@@ -1,77 +1,88 @@
+:root{
+  --azul: #0095f6;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
 body{
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fafafa;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(243, 243, 243);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .instagram-wrapper{
-  max-width: 935px;
-  margin: auto;
   display: flex;
+  align-items: center;
   justify-content: center;
+}
+
+.container-centralizado img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.instagram-phone img{
+  height: 45rem;
+  padding: 0 1rem;
 }
 
 .instagram-login{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 45rem;
 }
 
 .group{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  border: 1px solid #8d8d8d;
-  padding: 10px 20px;
-  margin: 10px 0px;
-}
-
-.alternar{
-  color: #8E8E8E;
-}
-
-.mb4{
-  margin-bottom: 4px;
-}
-
-.botao{
-  padding: 10px;
-  border-radius: 5px;
-  font-size: 1rem;
-}
-
-.btn1{
-  text-decoration: none;
-  background-color: #0095f6;
-  color: white;
-}
-
-.btn2{
-  text-decoration: none;
+  border: 1px solid lightgray;
   background-color: white;
-  color: #0095f6;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1.3rem 1rem;
 }
 
-.baixar-app{
-  display: flex;
-  justify-content: space-around;
+.logo{
+  height: 4rem;
+}
+
+.img-profile img{
+  border-radius: 50%;
 }
 
 .baixar-app img{
-  max-width: 130px;
+  height: 3.5rem;
+  padding: .5rem;
 }
 
-#celular{
-  max-width: 400px;
+.link-blue{
+  color: var(--azul);
 }
 
-#logo{
-  display: block;
-  margin: 5px;
-  max-width: 150px;
+.button{
+  background-color: var(--azul);
+  color: white;
+  margin: .5rem;
+  padding: .5rem;
+  border-radius: .5rem;
 }
 
-#j6assis{
-  margin: 5px;
-  border-radius: 50%;
+.group:nth-child(2) p{
+  padding: .5rem;
 }
