@@ -27,13 +27,10 @@ body{
   justify-content: center;
 }
 
-.container-centralizado img{
+.instagram-phone img{
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.instagram-phone img{
   height: 45rem;
   padding: 0 1rem;
 }
@@ -63,6 +60,9 @@ body{
 }
 
 .img-profile img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
 }
 
@@ -85,4 +85,10 @@ body{
 
 .group:nth-child(2) p{
   padding: .5rem;
+}
+
+@media(max-width: 800px){
+  .instagram-phone img{
+    display: none;
+  }
 }
