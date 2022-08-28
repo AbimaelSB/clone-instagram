@@ -87,7 +87,7 @@ body{
   padding: .5rem;
 }
 
-@media(max-width: 800px){
+@media(max-width: 650px){
   .instagram-phone img{
     display: none;
   }
